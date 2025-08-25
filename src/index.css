@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==== Utilidades personalizadas ==== */
+.input{ @apply mt-1 w-full p-2 rounded bg-white text-black; }
+.btn-primary{ @apply px-4 py-2 bg-yellow-400 text-black rounded font-bold hover:bg-yellow-500; }
+.btn-outline{ @apply px-4 py-2 border border-yellow-600 rounded text-yellow-600 hover:bg-yellow-600 hover:text-white; }
+.th-left{ @apply p-2 text-left; }
+.th-right{ @apply p-2 text-right; }
+.td-left{ @apply p-2 text-left; }
+.td-right{ @apply p-2 text-right; }
+.select{ @apply p-2 rounded bg-white text-black; }
